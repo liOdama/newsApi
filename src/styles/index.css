@@ -1,0 +1,18 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.getRequest {
+    padding: 20px 20px;
+    background: none;
+    border-radius: 15px;
+    border: 1px green solid;
+    cursor: pointer;
+}
+
