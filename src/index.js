@@ -1,4 +1,6 @@
 let Create = require('./createElement.js');
+import style from './styles/index.css'
+
 
 window.onload = function(){
  
