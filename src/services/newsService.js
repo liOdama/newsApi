@@ -10,8 +10,8 @@ export class NewsService {
         .then((searchData) => {
           if (searchData && searchData.articles && searchData.articles.length) {
             return fetch(this.makeURL())
-              .then(videosResponse => videosResponse.json())
-              .then(videosData => Promise.resolve(videosData));
+              .then(newsResponse => newsResponse.json())
+              .then(newsData => Promise.resolve(newsData));
           }
           return Promise.resolve([]);
         });

@@ -1,4 +1,4 @@
-module.exports = class CreateFragment {
+export class CreateFragment {
     constructor() {
       this.fragment = document.createDocumentFragment();
       this.tempElement = undefined;
@@ -20,7 +20,7 @@ module.exports = class CreateFragment {
       this.tempElement.innerHTML = text;
       return this;
     }
-  reInsert) {
+    setInFragment(whereInsert) {
       if (whereInsert !== null) {
         this.fragment.querySelector(whereInsert).appendChild(this.tempElement);
       } else {
@@ -32,6 +32,7 @@ module.exports = class CreateFragment {
     setInDocument(whereInsert) {
       document.querySelector(whereInsert).appendChild(this.fragment);
     }
-    setInFragment(whe
-  };
+  }
+  const createDom = new CreateFragment();
+  export default createDom
   
