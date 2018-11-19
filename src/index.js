@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 let Create = require('./createElement.js');
+=======
+import style from './styles/index.css'
+>>>>>>> 5ff8b326f31e041a3491e3bb97d0714c67acacc5
 
 window.onload = function(){
  
